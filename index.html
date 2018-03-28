@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>udspj</title>
+  <title>ihjz</title>
 
   <style type="text/css">
 
@@ -70,7 +70,7 @@
         {
           var para = document.createElement("a");
           var txt1 = document.createTextNode(json.tree[j].path);
-          para.setAttribute("href","http://udspj.github.io/blogs/"+json.tree[j].path+"/"+json.tree[j].path+".html");
+          para.setAttribute("href","http://ihjz.github.io/blogs/"+json.tree[j].path+"/"+json.tree[j].path+".html");
           para.style.margin="10px";
           para.style.display="block";
           para.style.textDecoration="none";
@@ -86,7 +86,7 @@
           testdiv.appendChild(document.createElement("br"));
         }
         var title = document.getElementById("title");
-        title.innerHTML = "一个超简陋的“博客”";
+        title.innerHTML = "Simple blog";
       }
       else
       {
@@ -95,7 +95,7 @@
     }
   }
 
-  loadXMLDoc("https://api.github.com/repos/udspj/udspj.github.io/contents/",gettrees)
+  loadXMLDoc("https://api.github.com/repos/ihjz/ihjz.github.io/contents/",gettrees)
 
   function loadXMLDoc(url,statechange)
   {
